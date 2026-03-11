@@ -1,0 +1,10 @@
+<UserControl x:Class="UniversityMenuApp.Views.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="24">
+        <StackPanel>
+            <TextBlock Text="Inicio" FontSize="24" FontWeight="Bold"/>
+            <TextBlock Margin="0,8,0,0" Text="Selecciona una opción del menú para cargar un módulo a la derecha."/>
+        </StackPanel>
+    </Grid>
+</UserControl>
