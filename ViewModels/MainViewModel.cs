@@ -13,6 +13,7 @@ public partial class MainViewModel : ObservableObject
     private readonly StudentsViewModel _studentsVM = new();
     private readonly TeachersViewModel _teachersVM = new();
     private readonly SubjectsViewModel _subjectsVM = new();
+    private readonly ReportesViewModel _reportesVM = new();
 
     public ObservableCollection<MenuOption> MenuOptions { get; } = new();
 
@@ -39,6 +40,7 @@ public partial class MainViewModel : ObservableObject
             "Students" => _studentsVM,
             "Teachers" => _teachersVM,
             "Subjects" => _subjectsVM,
+            "Reports" => _reportesVM,
             _ => _homeVM
         };
     }

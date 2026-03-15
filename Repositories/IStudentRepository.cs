@@ -10,5 +10,8 @@ namespace UniversityMenuApp.Repos
     public interface IStudentRepository
     {
         IEnumerable<Student> GetStudents();
+        void Add(Student student);
+        void Update(Student student);
+        void Delete(int id);
     }
 }

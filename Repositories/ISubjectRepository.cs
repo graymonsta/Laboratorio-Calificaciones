@@ -10,5 +10,8 @@ namespace UniversityMenuApp.Repositories
     public interface ISubjectRepository
     {
         IEnumerable<Subject> GetSubjects();
+        void Add(Subject subject);
+        void Update(Subject subject);
+        void Delete(int id);
     }
 }

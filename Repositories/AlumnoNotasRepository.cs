@@ -13,9 +13,15 @@ namespace UniversityMenuApp.Repositories
         {
             return new List<AlumnoNotas>
             {
-               new AlumnoNotas { AlumnoID = 1, SubjectID = 1, Nota = 85 },
-               new AlumnoNotas { AlumnoID = 2, SubjectID = 2, Nota = 90 },
-               new AlumnoNotas { AlumnoID = 3, SubjectID = 3, Nota = 78 },
+               new() { AlumnoID = 1, SubjectID = 1, Nota = 100 },
+               new() { AlumnoID = 1, SubjectID = 2, Nota = 90 },
+               new() { AlumnoID = 1, SubjectID = 3, Nota = 75 },
+               new() { AlumnoID = 2, SubjectID = 1, Nota = 70 },
+               new() { AlumnoID = 2, SubjectID = 2, Nota = 80 },
+               new() { AlumnoID = 2, SubjectID = 3, Nota = 100 },
+               new() { AlumnoID = 3, SubjectID = 1, Nota = 77 },
+               new() { AlumnoID = 3, SubjectID = 2, Nota = 82 },
+               new() { AlumnoID = 3, SubjectID = 3, Nota = 93 }
             };
         }
     }

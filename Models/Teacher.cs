@@ -7,7 +7,7 @@ namespace UniversityMenuApp.Models
         public int Id { get; set; }
 
         [ObservableProperty]
-        private string fullName = "";
+        private string name = "";
 
         [ObservableProperty]
         private string email = "";
